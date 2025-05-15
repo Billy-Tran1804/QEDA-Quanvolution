@@ -26,7 +26,8 @@ Running arguments:
 *	save_name: The leading name of the outputs, containing the model and its state_dict of the best epoch based on accuracy, the history training, and the training plot. The saved.
   
 Examples: These are the corresponding commands in the  terminal for each case:
-Baseline: python main_script.py --epochs 100  --save_name basline_run  
-Saliency: python main_script.py --epochs 100  --p 0.5 --save_name saliencymix_run  
-Quantum:  python main_script.py --epochs 100  --p 0.5 quantum --save_name quantum_run  
+* Baseline: python main_script.py --epochs 100  --save_name basline_run  
+* Saliency: python main_script.py --epochs 100  --p 0.5 --save_name saliencymix_run  
+* Quantum:  python main_script.py --epochs 100  --p 0.5 quantum --save_name quantum_run
+  
 Drawback: Still using the same log.txt file for the whole training process, meaning that many runs can have the same file.
