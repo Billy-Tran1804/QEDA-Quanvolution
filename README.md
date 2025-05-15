@@ -1,12 +1,14 @@
 # QEDA-Quanvolution
 The project uses RQCs as a data augmentation technique.
+
 Libraries dependency of the project:
-keras==3.9.2
-matplotlib==3.10.1
-numpy==2.2.5
-opencv_contrib_python==4.11.0.86
-torch==2.7.0
-torchvision==0.22.0
+
+* keras==3.9.2
+* matplotlib==3.10.1
+* numpy==2.2.5
+* opencv_contrib_python==4.11.0.86
+* torch==2.7.0
+* torchvision==0.22.0
 
 Usage: 
 *	Initialize data_path and aug_path by changing the name of the last argument to the datasets to your liking. Note:
